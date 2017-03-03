@@ -6,7 +6,7 @@ serverPort = 12000
 
 clientSocket = socket(AF_INET,SOCK_DGRAM)
 
-message = input("sentence")
+message = raw_input("sentence")
 
 clientSocket.sendto(message,(serverName, serverPort))
 
