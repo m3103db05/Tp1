@@ -15,3 +15,4 @@ while 1:
 	modifiedMessage = message.upper()
 
 	serverSocket.sendto(modifiedMessage, clientAddress)
+	print modifiedMessage
